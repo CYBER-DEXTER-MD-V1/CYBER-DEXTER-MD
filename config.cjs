@@ -33,7 +33,7 @@ const config = {
   NOT_ALLOW: parseBoolean(process.env.NOT_ALLOW, true),
   MODE: process.env.MODE || "public",
   OWNER_NAME: process.env.OWNER_NAME || "✪⏤CYBER-DEXTER",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94785274495",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94740482244",
 
   // API Keys
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",

@@ -5,11 +5,13 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start main.js --deep-monitoring --attach --name CYBER-DEXTER-MD",
-    "stop": "pm2 stop CYBER-DEXTER-MD",
-    "restart": "pm2 restart CYBER-DEXTER-MD"
+    "start": "node main.js"
   },
-  "keywords": ["CYBER-DEXTER-md", "whatsapp-bot", "whatsapp md bot"],
+  "keywords": [
+    "CYBER-DEXTER-md",
+    "whatsapp-bot",
+    "whatsapp md bot"
+  ],
   "author": "CYBER-DEXTER",
   "license": "ISC",
   "dependencies": {
@@ -56,7 +58,6 @@
     "mega": "^0.2.0",
     "pdfkit": "^0.15.0",
     "pino": "^8.20.0",
-    "pm2": "^5.4.0",
     "proto": "^1.0.19",
     "qrcode": "^1.5.3",
     "qrcode-terminal": "^0.12.0",

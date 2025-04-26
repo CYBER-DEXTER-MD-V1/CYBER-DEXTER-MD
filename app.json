@@ -1,112 +1,28 @@
 {
   "name": "Cyber-Dexter-MD-Bot",
-  "description": "A powerful WhatsApp bot powered by Cyber Dexter",
+  "description": "A powerful WhatsApp Multi-Device Bot made by CYBER DEXTER",
   "repository": "https://github.com/CYBER-DEXTER-MD-V1/CYBER-DEXTER-MD",
   "keywords": [
     "whatsapp",
     "bot",
     "nodejs",
-    "cyber-dexter",
-    "md-bot"
+    "baileys",
+    "multi-device",
+    "cyber-dexter"
   ],
   "env": {
     "SESSION_ID": {
-      "description": "Your Session ID for WhatsApp",
+      "description": "Your Session ID",
       "required": true
     },
     "PREFIX": {
-      "description": "Command prefix",
+      "description": "Bot command prefix (default is .)",
       "required": false,
       "value": "."
     },
-    "AUTO_STATUS_SEEN": {
-      "description": "Auto see statuses",
-      "required": false,
-      "value": "true"
-    },
-    "AUTO_STATUS_REACT": {
-      "description": "Auto react to statuses",
-      "required": false,
-      "value": "true"
-    },
-    "AUTO_STATUS_REPLY": {
-      "description": "Auto reply to statuses",
-      "required": false,
-      "value": "false"
-    },
-    "AUTO_STATUS_REPLY_VOICE": {
-      "description": "Auto reply with voice to statuses",
-      "required": false,
-      "value": "false"
-    },
-    "AUTO_STATUS_REPLY_VOICE_MULTI": {
-      "description": "Auto reply with multiple voices to statuses",
-      "required": false,
-      "value": "false"
-    },
-    "STATUS_READ_MSG": {
-      "description": "Custom message when status is read",
-      "required": false,
-      "value": "*📍 Auto Status Seen Bot By CYBER-DEXTER-MD*"
-    },
-    "AUTO_DL": {
-      "description": "Auto download media",
-      "required": false,
-      "value": "false"
-    },
-    "AUTO_READ": {
-      "description": "Auto read messages",
-      "required": false,
-      "value": "false"
-    },
-    "AUTO_TYPING": {
-      "description": "Auto show typing",
-      "required": false,
-      "value": "false"
-    },
-    "AUTO_RECORDING": {
-      "description": "Auto show recording",
-      "required": false,
-      "value": "true"
-    },
-    "ALWAYS_ONLINE": {
-      "description": "Always appear online",
-      "required": false,
-      "value": "false"
-    },
-    "REJECT_CALL": {
-      "description": "Reject incoming calls",
-      "required": false,
-      "value": "false"
-    },
-    "NOT_ALLOW": {
-      "description": "Block forbidden actions",
-      "required": false,
-      "value": "true"
-    },
-    "MODE": {
-      "description": "Bot mode (public/private/self)",
-      "required": false,
-      "value": "public"
-    },
-    "OWNER_NAME": {
-      "description": "Owner's name",
-      "required": false,
-      "value": "✪⏤CYBER-DEXTER"
-    },
-    "OWNER_NUMBER": {
-      "description": "Owner's WhatsApp number",
-      "required": false,
-      "value": "94740482244"
-    },
     "GEMINI_KEY": {
-      "description": "Google Gemini API key",
+      "description": "Google Gemini API Key for AI features",
       "required": true
-    },
-    "WELCOME": {
-      "description": "Welcome new users",
-      "required": false,
-      "value": "true"
     }
   },
   "buildpacks": [

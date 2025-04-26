@@ -115,6 +115,32 @@
 </a>
 </h2>
 
+---
+
+## 🚀 Deploy
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CYBER-DEXTER-MD-V1/CYBER-DEXTER-MD)
+
+---
+
+## ⚙️ Environment Variables
+
+| Variable      | Description |
+| ------------- | ----------- |
+| SESSION_ID    | Your WhatsApp Session ID (required) |
+| PREFIX        | Your bot's command prefix (default is .) |
+| GEMINI_KEY    | Google Gemini API Key (required for AI features) |
+
+---
+
+## 📡 Features
+- Auto Status Seen
+- Auto Reply
+- Auto Typing
+- Owner Commands
+- Gemini AI Chat
+- More Features Coming Soon...
+
 
  <br>
   </br>
